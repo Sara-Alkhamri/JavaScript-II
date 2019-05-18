@@ -1,6 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
+function dogName() {
+  let name = "Prada";
+  function dogMom() {
+    console.log("Sara " + name)
+  }
+  dogMom()
+}
+console.log(dogName());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
